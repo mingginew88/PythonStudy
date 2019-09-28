@@ -1,23 +1,27 @@
-# PythonStudy
+# Python study
+
+## Project Setting
+
+> - OS : MacOS
+> - version : python 3.7.0
+> - Tool : vscode
+
+## Python Environment Variable
+## Mac homebrew Install
+```terminal
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+## insert command line in terminal
+
+```terminal
+$ sudo vi .profile
+$ export PATH=/usr/local/bin:/usr/local/sbin:$PATH 
+# 패스 등록
+....
+$ brew install python3 # brew를 통해 파이선3 설치
+```
 
 
-1. Project Setting
-OS : MacOS
-version : python 3.7.0 
-Tool : VSCode
-
-2. Python Environment Variable
-# Mac homebrew Install
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-# insert command line in terminal
-sudo vi .profile
-# 키보드에서 i키를 입력(insert)
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH
-# esc를 누른 후에
-:wq
-# Python3 Install
-brew install python3
 # Python Version Check
 python3 --version
 # OpenCV Install
