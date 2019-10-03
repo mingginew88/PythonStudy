@@ -10,7 +10,7 @@
 ```terminal
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-## insert command line in terminal
+## Insert command line in terminal
 ```terminal
 $ sudo vi .profile
 $ export PATH=/usr/local/bin:/usr/local/sbin:$PATH 
