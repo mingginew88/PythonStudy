@@ -4,10 +4,11 @@ src = cv2.imread("Image/narImage.jpeg", cv2.IMREAD_COLOR)
 
 # 이미지 색상 반전
 # 연산 종류 : not, and, or, xor
-#dst = cv2.bitwise_not(src)
+dst = cv2.bitwise_not(src)
+# 아래 세 연산 사용법???은 뭘까
 #dst = cv2.bitwise_and(src)
 #dst = cv2.bitwise_or(src)
-dst = cv2.bitwise_xor(src)
+#dst = cv2.bitwise_xor(src)
 
 cv2.imshow("src",src)
 cv2.imshow("dst",dst)
